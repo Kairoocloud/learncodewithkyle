@@ -1,0 +1,87 @@
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #00ACC1;
+    overflow: hidden;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #D50000;
+    color: #ffffff;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #757575;
+    color: white;
+  }
+  /* h1 element */
+  h1{
+    font-family: -apple-system,BlinkMacSystemFont,segoe ui,roboto,oxygen,cantarell,helvetica neue,ubuntu,sans-serif;
+    font-weight: 200;
+    font-size: 50px;
+    text-align: left;
+  }
+body{
+    background-image: url("/images/abstract-art-artistic-background-1103970.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    
+
+figcaption {
+    font-family: -apple-system,BlinkMacSystemFont,segoe ui,roboto,oxygen,cantarell,helvetica neue,ubuntu,sans-serif;
+    font-weight: 200;
+    text-align: center;
+}
+ p  {
+    font-family: -apple-system,BlinkMacSystemFont,segoe ui,roboto,oxygen,cantarell,helvetica neue,ubuntu,sans-serif;
+    font-weight: 400;
+    font-style: bold;
+    padding: 20px;
+    
+}
+figure  img{
+    height: 200px;
+    width: 200px;
+    border-radius: 0px;
+    border-color: black;
+    overflow: hidden;
+}
+header{
+    text-align: center;
+}
+div footer figure img {
+    
+    height:50px;
+    width: 50px;
+}
+div footer figure figcaption {
+    text-align: left;
+}
+.paragraphs{
+    background-color: transparent;
+    display: inline-flex;
+    color: black;
+    font-size: 20px;
+   
+}
+#footer{
+    background-color: transparent;
+    display:inline-flex;
+    flex-direction: row;
+}

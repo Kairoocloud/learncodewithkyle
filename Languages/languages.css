@@ -1,0 +1,120 @@
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #00ACC1;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #D50000;
+    color: #ffffff;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #757575;
+    color: white;
+  }
+  /* h1 element */
+  h1{
+    font-family: -apple-system,BlinkMacSystemFont,segoe ui,roboto,oxygen,cantarell,helvetica neue,ubuntu,sans-serif;
+    font-weight: 400;
+  }
+  /* h3 element */
+  h3{
+    font-family: -apple-system,BlinkMacSystemFont,segoe ui,roboto,oxygen,cantarell,helvetica neue,ubuntu,sans-serif;
+    font-weight: 200;
+  }
+.paragraphs2{
+  font-family: -apple-system,BlinkMacSystemFont,segoe ui,roboto,oxygen,cantarell,helvetica neue,ubuntu,sans-serif;
+  font-weight: 250;
+  font-size: 20px;
+  margin-left: 1.5cm;
+}  
+h2{
+  font-family: -apple-system,BlinkMacSystemFont,segoe ui,roboto,oxygen,cantarell,helvetica neue,ubuntu,sans-serif;
+  font-weight: 400;
+}
+/* Three columns side by side */
+.column {
+  float: left;
+  width: 20%;
+  height:20%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+/* Add some shadows to create a card effect */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Some left and right padding inside the container */
+.container {
+  padding: 0 16px;
+}
+
+/* Clear floats */
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+  font-family: -apple-system,BlinkMacSystemFont,segoe ui,roboto,oxygen,cantarell,helvetica neue,ubuntu,sans-serif;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: #555;
+}
+.links{
+  text-decoration: none;
+  color: #ffffff;
+}
+#footer{
+  background-color: transparent;
+  display:inline-flex;
+  flex-direction: row;
+  font-family: -apple-system,BlinkMacSystemFont,segoe ui,roboto,oxygen,cantarell,helvetica neue,ubuntu,sans-serif;
+}
+div footer figure img {
+    
+  height:50px;
+  width: 50px;
+}
+div footer figure figcaption {
+  font-family: -apple-system,BlinkMacSystemFont,segoe ui,roboto,oxygen,cantarell,helvetica neue,ubuntu,sans-serif;
+}
